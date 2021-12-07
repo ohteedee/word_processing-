@@ -11,6 +11,9 @@ Open the index.html in the browser.
 
 
 def count_words(text):
+    """
+    This function counts some words and return integer which is the length of words
+    """
     if not isinstance(text, str):
         raise TypeError("only accepts strings")
 
@@ -24,5 +27,5 @@ def count_words(text):
 
 
 if __name__ == "__main__":
-    text = "everlyn\nTosin"
-    print(count_words(text))
+    SOME_WORDS= "everlyn\nTosin"
+    print(count_words(SOME_WORDS))
